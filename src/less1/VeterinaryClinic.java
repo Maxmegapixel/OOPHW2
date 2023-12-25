@@ -28,5 +28,31 @@ public class VeterinaryClinic {
         }
         return result;
     }
+    public List<Flieble> getFliebles() {
+        List<Flieble> result = new ArrayList<>(pacients.size());
+        for (Animal animal: pacients) {
+            if(animal instanceof Flieble) {
+                result.add((Flieble) animal);
+            }
+        }
+        return result;
+    }
+    public List<Swimble> getSwimbles() {
+        List<Swimble> result = new ArrayList<>(pacients.size());
+        for (Animal animal: pacients) {
+            if(animal instanceof Swimble) {
+                result.add((Swimble) animal);
+            }
+        }
+        return result;
+    }
+    public void appointment(Doctor doctor, Animal animal){
+        doctor.equals(animal);
+        doctor.diagnosis(animal);
+        doctor.medications(animal);
+
+    }
+
+
 
 }
