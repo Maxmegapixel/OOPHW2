@@ -1,4 +1,4 @@
-package less1;
+package lesson.src.less1;
 
 import java.time.LocalDate;
 
@@ -13,15 +13,15 @@ public class Doctor extends Staff {
     }
 
 
-    public void exams(Animal animal) {  // проводит осмотр
+    public void exams(Animal animal) {  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
         System.out.printf("%s examing pacient %s", type, animal);
 
     }
-    public void medications(Animal animal) {  // назначает лекарства
+    public void medications(Animal animal) {  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         System.out.printf("%s prescribe medications %s", type, animal);
     }
-    public void diagnosis(Animal animal) {  // ставит диагноз
+    public void diagnosis(Animal animal) {  // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         System.out.printf("%s make diagnosis %s", type, animal);
     }
 

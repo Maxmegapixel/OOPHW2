@@ -1,4 +1,4 @@
-package less1;
+package lesson.src.less1;
 
 import java.time.LocalDate;
 
@@ -11,7 +11,7 @@ public class Nurse extends Staff {
         this.assingDoctor = assingDoctor;
     }
 
-    public void injections (Animal animal) {  // делает укол
+    public void injections (Animal animal) {  // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         System.out.printf("%s make injections %s", type, animal);
     }
 

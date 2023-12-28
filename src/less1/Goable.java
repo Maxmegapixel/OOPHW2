@@ -1,4 +1,4 @@
-package less1;
+package lesson.src.less1;
 
 public interface Goable {
 

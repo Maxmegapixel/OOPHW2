@@ -1,4 +1,4 @@
-package less1;
+package lesson.src.less1;
 
 import java.util.ArrayList;
 import java.util.Collections;
