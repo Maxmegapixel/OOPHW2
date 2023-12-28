@@ -33,12 +33,12 @@ public class IterablePharmacy implements Iterable<Component> {
         return new Iterator<Component>() {
             @Override
             public boolean hasNext() {
-                return false;
+                return index < components.size();
             }
 
             @Override
             public Component next() {
-                return null;
+                return components.get(index++);
             }
         };
     }
