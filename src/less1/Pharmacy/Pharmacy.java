@@ -20,12 +20,12 @@ public class Pharmacy implements Iterator<Component> {
         }
 
     }
-
+    @Override
     public boolean hasNext() {
-        return this.index < this.components.size();
+        return index < components.size();
     }
-
+    @Override
     public Component next() {
-        return (Component)this.components.get(this.index++);
+        return components.get(this.index++);
     }
 }
